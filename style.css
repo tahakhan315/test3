@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    position: relative;
+    width: 100%;
+
+}
+.image{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    z-index: 1;
+    line-height: 1.5;
+    color: black;
+    border-radius: 50px;
+}
+h1,h6{
+    text-align: center;
+}
+button{
+    text-align: center;
+    background-color: rgb(89, 89, 190);
+
+}
+.p{
+    text-align: center;
+
+}
+ul,li{
+    font-size: 85px;
+}
+img{
+    background: fixed;
+}
+div.container2{
+    background-color: aqua;
+    font-size: 50px;
+    text-align: center;
+}
+button.hover{
+    color:red;
+}
+footer{
+    text-align: center;
+}
+div.container5{
+    width: 60px;
+    background-color: rgb(12, 94, 94);
+}
